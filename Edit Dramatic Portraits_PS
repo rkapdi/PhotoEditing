@@ -1,0 +1,27 @@
+NOTE: DO ALL SPOT/BLEMISH/ BEFORE SMOOTHNING.
+
+1. make copy ctrl + j
+2. invert: ctrl + i
+3. change blend mode to vivid light
+4. Filter>other>HP>radius=24
+5. Filter>blur>Gaussian Blur>keep val around 3,4 keep skin texture intact
+  Smoothnes applied to all image
+6. alt+create mask : creates negative mask
+7. select brush, make sure foreground color is white. If not white, press D.
+8. start painting over skin.
+  DONT paint over areas supposed to be sharp like eyes, beneath nostrils, over highlights.
+  STAY AWAY from lips.
+  
+  IN CASE OF MISTAKES:
+      Press X: switches the foreground color to black. use that to bring back sharpness.
+      
+TIME SAVING HACK:
+
+Reduce time by creating an action.
+1. windows>actions
+  Actions dialogue box records all actions and plays them.
+2. New Action> Rename "Skin Smoothning Quick" > Record
+3. Repeat actions from above till step 7.
+4. Stop recording.
+
+Once the action is saved, we just need to open an image and play it and just paint now!
