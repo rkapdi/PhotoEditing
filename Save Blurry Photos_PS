@@ -1,0 +1,51 @@
+SOURCE: https://www.youtube.com/watch?v=32ccycfCyE4
+
+- Once focus is lost, the data can not be invented. We try to recreate it and the image
+output is usable for online prints.
+
+- Does not works for photos completely out of focus.
+
+1. copy_background
+2. convert to smart object
+  Need to do this so that values of sharpening can be changed later.
+3. apply sharpness, smart sharpen
+    a. INC amount to 100
+    b. DEC radius to 0
+    c. DEC noise to 0
+    
+    - gradually increase radius to the point that features are accentuated.
+    - Find a sweet spot, avoid halo.
+    - Reduce noise gradually.
+4. Select mask in smart filter.
+5. invert it: ctrl i
+6. Take brush:
+    - Make sure foreground color = white
+    a. Dec Flow to around 10-15%.
+    b. paint areas that require sharpness.
+7. Need to hight the damage: Create Merge Visible Layer.
+  - Merge Visible Layer merges everything on the canvas.
+  a. Ctrl + Alt + Shift + E
+  b. Filter>blur>iris blur>
+    - Iris blur: blur increases gradually radially outwards.
+    - Play around with the settings based on image.  
+8. Create levels layer. [Spotlight Effect]
+  Bottom sliders:
+  - Right slider makes whites darkers.
+  - Left slider makes darkers white.
+  a. select brush, make sure the foreground color is black.
+    - Opacity, Flow: 100%
+    - Increase brush size, make it harder
+    - Dab on the face or the region that we are unblurring.
+    - Ctrl T to adjust the way we like.
+    - Enter 
+    - Select mask and goto mask properties.
+    - INC feather gradually.
+9. Goto properties of levels layer and add a warming effect or whatever works.
+
+Mask Concept:
+  - Black hides
+  - White shows
+
+Smart Filter:
+  - Use for non-destructive editing.
+  - Every smart filter comes with a mask.
