@@ -1,0 +1,65 @@
+DSL
+D: Dust & Scratches
+S: Spot Healing
+L: Liquify
+
+STEP 1
+D: Dust & Scratches
+Note: Use this for single stray hair only.
+Might not work at all sometimes or might do the complete job too.
+1. copy background layer
+2. convert to smart object
+3. Change to 8-bit so all filters can apply to smart obj
+4. Filter>Noise>Dust & Scratches
+  Zoom into the face : H
+  Decrease radius to 0
+  Inc till point single stray hair go away.
+  Maintain contrast btw hair and background
+  Threshold:0
+5. smart filter layer: Ctr I
+6. Take brush and paint the blur filter layer.
+7. Instead of having smart filter do the masking, add a -ve mask to background copy layer
+    Alt + (circle in rectangle button)
+8. select background copy layer and add noise
+  match noise level with background
+9. Make noise bigger
+  Filter>Blur>Gaussian Blur
+  Match the level of blur.
+10. come back to the mask and paint over stray hair.
+
+To figure out how far to paint:
+  Alt + click -ve mask to deselect it.
+
+STEP 2
+Note: Use this for single stray hair that were not removed in Step 1
+S: Spot Healing
+1. Create a new layer
+2. Name it spot healing layer
+3. select spot healing brush tool
+4. change mode to REPLACE
+5. since doing this on an empty layer, select "Sample All Layers"
+  so that new layer comprises of replacements.(Makes it close to Non-destructive)
+6. When painting, dont stop at the edge, take it a little in.
+  
+Step 3
+L: Liquefy
+1. create new layer
+2. create merge layer: Alt Ctrl Shift E
+3. Convert to smart object
+4. Filter>liquefy
+5. Add a freeze mask
+  Paint areas you dont want to be affected.
+6. Forward warp tool [w]
+  Make the brush the size of the thing you want to fix
+  Slowly nudge it in.
+
+Step 4
+Clone Stamp Tool/Patch Tool
+
+1. New layer
+2. Merge Alt Ctrl Shift E
+3. Use clone stamp tool to break away the region you want to remove.
+  Mode: Normal
+  Alt click to sample
+4. Select patch tool and replace the area
+  Mode: Normal
