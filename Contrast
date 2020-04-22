@@ -5,4 +5,44 @@ Mastering CONTRAST is the key to make images pop!
 Mature Image that pops off the frame.
 
 5 different layers.
+
+COLOR PHOTO:
+
+1. Extra Fine Contrast 
+  High Pass
+  - Find Eye
+  - Change radius until you get rid of halo(tutorial used around 2)
+  - blend mode: overlay
+  - dec opacity if contrast too high 
+
+2. Fine Detail
+Ctrl Alt Shift E
+- Image Adjustments: B&W
+- Create nice contrast in skin
+  - Reds to left
+  - Yellows to right
+  - Blend Mode: soft light
+  - Take opacity to 0 and inc it slowly until oomph!
+  - Adds a crunch to dark regions and leaves mid and high tones.
+
+3. Color Contrast
+  - choose Color Balance layer
+  - in shadows, add oposites: +5 Cyan, -5 Yellow
+  - in midtones, add oposites: +5 Cyan, -5 Yellow
+    Push cooltones to shadows and warmer tones to midtones
+
+4. Curves Contrast
+  Curves Layer
+  - Change blend mode to Luminosity
+  - In the curve, push shadows down. (left most part of curve)
+  - push highlights up, (right most part of curve)
+  - Preserve Midtones by pulling it down.
+  - Remember: LESS IS MORE.
+
+5. Levels Contrast
+  - choose Levels Layer
+  - Checking contrast at this stage and not adding.
+  - Press Alt and move Right slider to left
+  - Alt + move left slider to right
+  - Remember: DO NOT LOSE INFORMATION DURING SLIDER USE.
   
