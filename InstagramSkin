@@ -74,5 +74,19 @@ Source: PiXimperfect
       - Paint on lips, Decrease Opacity 
 
 8. Shape Lips
-  - 
- 
+  - Select Pen tool to select lips, TAKES TIME.
+  - Need to add softness to selection
+    - DONT ADD FEATHER FIRST
+    - Q: quick mask mode
+    - Gaussian Blur: Select value w/ real time preview until selection softer. (3.5)
+    - New Layer: Lip Retouch
+    - Clone stamp tool, sample: current and below
+    - Inside lip area is selected, start with outside lips
+      - Invert selection: Ctrl Shift i  
+      - Take sample by holding ALT and paint to the edges of the mask. 
+         The selection will maintain the shape of lips.   
+    - Ctrl h : Hide selection
+    - Invert selection to retouch inside of lips, Ctrl Shift i or ctrl i
+    - Take a sample and paint inside out
+    - If its too much decrease the opacity.
+    - 
