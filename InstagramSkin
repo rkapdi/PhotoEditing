@@ -1,0 +1,78 @@
+Source: PiXimperfect
+
+1. Add Contrast
+  - Curves
+    - Hands Option
+        - Change Sample size to 5by 5
+        - Click on highlight areas and drag up to brighten
+        - Click on shadow areas and drag down to darken
+       - Need to brighten the excessive shadows e.g: neck region
+        - Click on the area and drag up
+       - Make highlights look a little brighter
+        - Grap the top right most point of curve and drag to left a little bit.(Make sure not losing enough detail)
+      
+      Problem1: Colours don't look right
+      Fix:We want the curves adjustment layer to not affect color and only the luminosity , 
+           - Choose LUMINOSITY as blend mode.
+  Problem2: Only want the changes on the skin
+  Fix: Select Mask
+      - Ctrl i: makes mask black
+      - paint with white over the skin to get the curves.
+
+2. Add Warmth
+  - Curves
+  - Can not use previous layer b/c we changed blend mode to luminosity.
+  - Make it a little brighter if you want to by dragging the curve in 4th last option to 10:30 in clock dir.
+  - Add Yellow
+    - Since there is no yellow, Blue is opposite of yellow. DEC blue
+    - Dec blue makes it look greenish, DEC green to add a bit of magenta.
+    - Only want to apply to the skin so copy the changed mask from previous layer:
+        Alt + hold and drop on current mask.
+    
+3. Group the layers except background
+  - Ctrl click on layers
+  - Ctrl G : Group 
+  - Group name: curves contrast
+
+4. Frequency Seperation
+  using premade action
+  - Based on Image bit type play action
+  - Gaussian blur: INC from 0 till skin becomes smoother.
+    Frq Sep group is created, consists of:
+      a. High Freq: Details
+      b. Low Freq: color
+    Both combine to give you image
+  - Create a brand new layer in betwen a and b, SKIN 1
+  - Eyedropper tool
+  - Sample: Current and Below
+  - Take soft round bruh, DEC flow to about 5% or less. 
+  - Take a sample from eye drop and paint
+  - can also use brighter color to paint
+  - Make sure highlight areas are done peoperly
+  - DEC skin 1 opactity to 0 and INC till needed.
+
+5. Dodge and Burn
+  - Create a new layer, "Dodge and Burn"
+  - Blend mode: Soft Light
+  - Ensure fore/back grnd color: white/black
+  - Take brush and paint with Flow:1 or 2
+  - Dodge: white, Burn(Press x): Black
+
+6. Skin too Colourful, TONEDOWN vibrance
+  - Vibrance layer
+  - Decrease Vibrance: -7
+  - Only want changes on skin so clcik and drop the mask layer from the curves group.
+ 
+ 7. Enhance Lips
+   - Curves Layer: Create point in middle and take it up towards the left.   
+   - Double Click on right side of layer to open Layer style
+   - Want to create a shine on the lips and take away brightness from dark areas.
+      - Slide left slider of Underlying Layer to right till needed. (73 in video)
+      - Alt to break slider, slide to right to make transition smoother. (60/176 255)
+      - Click on mask, Ctrl i
+      - Take brush, Flow and Opacity: 100
+      - Paint on lips, Decrease Opacity 
+
+8. Shape Lips
+  - 
+ 
